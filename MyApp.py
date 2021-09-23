@@ -12,5 +12,6 @@ class MyMain(App):
         self.title = 'сука!!'
         return Container()
 
+
 if __name__ == "__main__":
     MyMain().run()
