@@ -9,7 +9,7 @@ class Container(GridLayout):
 class MyApp(App):
 
     def build(self):
-        self.title = 'Awesom app!!!'
+        self.title = 'app!!!'
         return Container()
 
 if __name__ == "__main__":
