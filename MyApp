@@ -6,12 +6,11 @@ class Container(GridLayout):
     pass
 
 
-class MainApp(App):
+class MyApp(App):
 
     def build(self):
         self.title = 'Awesome app!!!'
         return Container()
 
 if __name__ == "__main__":
-    app = MainApp()
-    app.run()
+    MyApp().run()
