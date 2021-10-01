@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MyPass_VVSU.iml" filepath="$PROJECT_DIR$/.idea/MyPass_VVSU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WorkInfa/.idea/WorkInfa.iml" filepath="$PROJECT_DIR$/../WorkInfa/.idea/WorkInfa.iml" />
     </modules>
   </component>
 </project>
