@@ -1,0 +1,41 @@
+########################################################################
+## SPLASH SCREEN
+########################################################################
+MDScreen:
+    name: "SplashScreen"
+
+
+
+    MDFloatLayout:
+        md_bg_color: 0, 30/255, 49/255, 1
+
+
+
+        Image:
+            source:'assets/gifs/Splash_Loading.gif'
+            pos_hint: {"center_x": .5, "center_y": .2}
+            size_hint_y: 0.2
+            allow_stretch: True
+            anim_delay: 0
+            anim_reset: True
+
+
+
+    MDLabel:
+        text: "MyPass"
+        pos_hint: {"center_x": .5, "center_y": .7}
+        halign: "center"
+        theme_text_color: "Custom"
+        text_color: 1, 1, 1, 1
+        font_size: "50sp"
+        font_name: "assets/fonts/Avantgardegothicc bolditalic.otf"
+
+
+    MDLabel:
+        text: "Ваш пропуск в смартфоне"
+        pos_hint: {"center_x": .5, "center_y": .640}
+        halign: "center"
+        theme_text_color: "Custom"
+        text_color: 1, 1, 1, 1
+        font_size: "15sp"
+        font_name: "assets/fonts/ofont.ru_AvantGardeGothicCTT (1).ttf"
